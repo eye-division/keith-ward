@@ -1,0 +1,17 @@
+- title: "Home"
+  href: "/"
+
+- title: "About"
+  href: "/about/"
+
+- title: "CV"
+  href: "/cv/"
+
+- title: "Books"
+  href: "/books-all/"
+
+- title: "Links"
+  href: "/links/"
+
+- title: "Audio / Video"
+  href: "/audio-video/"
