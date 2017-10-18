@@ -79,24 +79,27 @@
 /*
  * Individual project pages
  */
-.projects {
+
+
+.media {
     iframe {
+        width: 100%;
         max-width: 100%;
     }
-    .media {
-        .image-gallery {
-            img {
-                border-radius: 5px;
-                box-shadow: 5px 5px 5px $light-gray;
-                float: left;
-                margin: 5px;
-                transition: box-shadow 0.5s ease;
-            }
-            a:hover img, a:focus img {
-                box-shadow: 5px 5px 5px $highlight-color;
-            }
+    .image-gallery {
+        img {
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px $light-gray;
+            float: left;
+            margin: 5px;
+            transition: box-shadow 0.5s ease;
+        }
+        a:hover img, a:focus img {
+            box-shadow: 5px 5px 5px $highlight-color;
         }
     }
+}
+.project {
     @include media($tablet) {
         #content {
             @include clearfix;
