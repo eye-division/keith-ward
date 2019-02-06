@@ -1,9 +1,10 @@
-# External gems
-gems:
-  - jekyll-sitemap
 
-exclude:
-  - "/vendor/"
+plugins:
+ # - jekyll-archives # Sorry, not GitHub pages friendly!
+ # - jekyll-assets
+ # - autoprefixer-rails
+   - jekyll-seo-tag
+   - jekyll-sitemap
 
 # Site settings
 title: Keith Ward
