@@ -5,7 +5,7 @@
   <p id="logo" class="h1"><a href="index.html" rel="nofollow">Keith Ward</a></p>
 
     <nav role="navigation">
-      <ul id="menu-mainmenu"" class="nav top-nav links clearfix">
+      <ul id="menu-mainmenu" class="nav top-nav links clearfix">
         {% for link in site.data.nav %}
           <li class="menu-item menu-item-type-post_type menu-item-object-page{% if page.url == link.href %} current-menu-item current_page_item{% endif %}"><a href="{{ link.href | prepend: site.baseurl }}">{{ link.title }}</a>
         {% endfor %}
