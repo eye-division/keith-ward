@@ -51,7 +51,7 @@ defaults:
 
 # Google analytics
 ga_tracking_id: "UA-20185207-1"
-
+ga_measurement_id: "G-134R8765PF"
 
 # Social icons and sharing options
 #
